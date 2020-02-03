@@ -1,0 +1,64 @@
+! Dvorak layout for finnish users.
+! Load with xmodmap, e.g., "xmodmap findvorak.xmodmap".
+
+keycode  49 = grave             asciitilde          dead_tilde              dead_caron
+
+keycode  10 = 1                 exclam              onesuperior             exclamdown
+keycode  11 = 2                 at                  twosuperior             enfilledcircbullet
+keycode  12 = 3                 numbersign          threesuperior           sterling
+keycode  13 = 4                 dollar              EuroSign                onequarter
+keycode  14 = 5                 percent             onehalf                 threequarters
+keycode  15 = 6                 asciicircum         dead_circumflex         radical
+keycode  16 = 7                 ampersand           paragraph               section
+keycode  17 = 8                 asterisk            infinity                multiply
+keycode  18 = 9                 parenleft           dagger                  U2248
+keycode  19 = 0                 parenright          degree                  notequal
+keycode  20 = bracketleft       braceleft           lessthanequal           seconds
+keycode  21 = bracketright      braceright          greaterthanequal        minutes
+
+keycode  24 = apostrophe        quotedbl            leftdoublequotemark     leftsinglequotemark
+keycode  25 = comma             semicolon           less    				rightsinglequotemark
+keycode  26 = period            colon             	greater	                periodcentered
+keycode  27 = p                 P                   Greek_pi                Greek_PI
+keycode  28 = y                 Y                   Greek_psi               Greek_PSI
+keycode  29 = f                 F                   function                Greek_PHI
+keycode  30 = g                 G                   Greek_gamma             Greek_GAMMA
+keycode  31 = c                 C                   ccedilla                Ccedilla
+keycode  32 = r                 R                   registered              copyright
+keycode  33 = l                 L                   Greek_lambda            Greek_LAMBDA
+keycode  34 = slash             question            dead_acute              questiondown
+keycode  35 = equal             plus                dead_grave              plusminus
+
+keycode  38 = a                 A                   Adiaeresis              acircumflex
+keycode  39 = o                 O                   Odiaeresis              oslash
+keycode  40 = e                 E                   braceleft                  eacute
+keycode  41 = u                 U                   bracketleft              Udiaeresis
+keycode  42 = i                 I                   ae                      oe
+keycode  43 = d                 D                   bracketright             Greek_DELTA
+keycode  44 = h                 H                   bracketright             heart
+keycode  45 = t                 T                   braceright               U03D1
+keycode  46 = n                 N                   ntilde                  Ntilde
+keycode  47 = s                 S                   scaron                  scircumflex
+keycode  48 = minus             underscore          endash                  emdash
+keycode  51 = backslash         bar                 guillemotright          dead_macron
+
+keycode  94 = adiaeresis        Adiaeresis          aring                   Aring
+keycode  52 = odiaeresis        Odiaeresis          dead_diaeresis          U2200
+keycode  53 = q                 Q                   Greek_omega             Greek_OMEGA
+keycode  54 = j                 J                   ampersand               U2203
+keycode  55 = k                 K                   ampersand               Greek_kappa
+keycode  56 = x                 X                   Greek_xi                Greek_XI
+keycode  57 = b                 B                   percent                 Greek_beta
+keycode  58 = m                 M                   mu                      Greek_MU
+keycode  59 = w                 W                   ubreve                  Ubreve
+keycode  60 = v                 V                   Greek_alpha             rightarrow
+keycode  61 = z                 Z                   Greek_sigma             Greek_SIGMA
+
+keycode  65 = space             space               nobreakspace            enspace
+
+! Uncomment only one of the lines below if Alt Gr does not work;
+! either try them one by one or use "xev" to find out the keycode.
+! Remove the ! from the one line you wish to activate:
+keycode 108 = Mode_switch
+!keycode 64 = Mode_switch
+!keycode 113 = Mode_switch
